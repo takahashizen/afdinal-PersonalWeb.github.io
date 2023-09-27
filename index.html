@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afdinal G</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8b184f740.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Josefin+Sans:wght@400;500&family=Kanit:wght@300&family=Pangolin&family=Quicksand:wght@600&family=REM&family=Source+Code+Pro:wght@200&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="home">
+        <nav id="nav" class="navBar">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <div class="myname">
+                        <h3>AfdinalG</h3>
+                    </div>
+                    <button class="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <!-- nav links -->
+                <div class="nav-links">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">about me</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#tours" class="scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Geometry -->
+        <div class="outer-box">
+            <div class="inner-box"></div>
+        </div>
+        <!-- banner -->
+        <div class="banner">
+            <div class="my-info">
+                <div class="about-me">
+                    <h1 class="my-name">Afdinal Ghibran Batubara</h1>
+                    <h3>Petroleum Engineering | Institut Teknologi Bandung</h3>
+                    <div class="social-media-container">
+                        <a href="https://www.instagram.com/kiseki_no_zone/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/takahashizen" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/afdinal-ghibran-batubara-96a59b292/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profil-img">
+                <img src="images/Profil_picture.jpg" alt="My Profil Picture">
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about <span>me</span></h2>
+        </div>
+        <div class="self-info-container">
+            <div class="self-info">
+                <div class="description">
+                    <p>The desire to continue learning and always evaluate myself is a principle that has always existed within me until now. I am a Petroleum Engineering student at the Bandung Institute of Technology with experience writing code in HTML, CSS, and JavaScript. Beside that,  I am also a member of the electrical division of the SAR robot development team, Unit Robotika ITB. I have a great interest in technology. I am someone who can work well as part of a team and is able to provide good analysis when faced with problems.</p>
+                    <div class="bottom-line"></div>
+                </div>
+                <div class="self-img">
+                    <img src="images/profil-img-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- projects -->
+     <section id="services" class="section">
+        <div class="title">
+            <h2>My <span>projects</span></h2>
+        </div>
+        <div class="projects-container">
+            <section class="my-project" id="weather-project">
+                <div class="project-image">
+                    <img src="images/mist.png" alt="Icon">
+                </div>
+                <div class="project-title">
+                    <h3>Weather App</h3>
+                </div>
+                <div class="project-desc">
+                    <p>A real time weather application that uses API to connect to the <a href="https://openweathermap.org/">OpenWeatherMap</a> database</p>
+                </div>
+            </section>
+            <section class="my-project" id="to-do-list-project">
+                <div class="project-image">
+                    <img src="images/icon.png" alt="Icon">
+                </div>
+                <div class="project-title">
+                    <h3>To-Do List</h3>
+                </div>
+                <div class="project-desc">
+                    <p>A cool and easy to use interface To-do List app</p>
+                </div>
+            </section>
+            <section class="my-project" id="text-to-voice-project">
+                <div class="project-image">
+                    <img src="images/megaphone.png" alt="Icon">
+                </div>
+                <div class="project-title">
+                    <h3>Text to Voice</h3>
+                </div>
+                <div class="project-desc">
+                    <p>An app that convert text into voice using Web SpeechSyntesis</p>
+                </div>
+            </section>
+        </div>
+    </section>
+     <!-- tours -->
+     <section id="tours" class="section">
+        <div class="title">
+            <h2 id="contact-title">Get In <span>touch</span></h2>
+        </div>
+        <div class="contact-container">
+            <form class="input-container" name="submit-to-google-sheet">
+                <div class="name-input-container">
+                    <input type="text" class="personal-input" placeholder="Name" name="Name">
+                </div>
+                <div class="email-input-container">
+                    <input type="email" class="personal-input" placeholder="Email" name="Email">
+                </div>
+                <div class="message-input-container">
+                    <textarea name="Message" id="text-message" placeholder="Message"></textarea>
+                </div>
+                <div class="btn-container">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+            <div class="my-personal-contact">
+                <h1>Social <span>Media</span></h1>    
+                <div class="personal-contact">
+                    <h4><span>Email:</span> afdinalbtb16@gmail.com</h4>
+                    <h4><span>WhatsApp:</span> (+62) 895-1859-3615</h4>
+                    <h4><span>Instagram:</span> @kiseki_no_zone</h4>
+                    <h4><span>Line:</span> @afdinalbtb</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>
+            copyright &copy; <span class="royal">Afdinal</span> 2023.
+        </p>
+    </footer>
+    <!-- back to top button -->
+    <a href="#home" class="back-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!-- Toast Notification -->
+    <div class="notification-center"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
